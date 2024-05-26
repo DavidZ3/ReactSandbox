@@ -13,7 +13,7 @@
     opacity: 70%;
   }
 </style>
-<p><strong>Uber:</strong></p>
+<h1>Uber:</h1>
 <button class="uber">Request Now</button>
 <br />
 <br />
@@ -32,7 +32,7 @@
     background-color: rgb(244, 193, 0);
   }
 </style>
-<p><strong>Amazon:</strong></p>
+<h1>Amazon:</h1>
 <button class="amazon-add-to-cart">Add to Cart</button>
 <br />
 <br />
@@ -51,7 +51,7 @@
     box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.15);
   }
 </style>
-<p><strong>Github:</strong></p>
+<h1>Github:</h1>
 <button class="github">Sign Up</button>
 <br />
 <br />
@@ -87,14 +87,14 @@
     background-color: rgb(96, 105, 112);
   }
 </style>
-<p><strong>Bootstrap:</strong></p>
+<h1>Bootstrap:</h1>
 <button class="bootstrap-get-started">Get Started</button>
 <button class="bootstrap-download">Download</button>
 <br />
 <br />
 <!-- 2e. Linkedin -->
 <style>
-  .linkedin-apply{
+  .linkedin-apply {
     color: white;
     background-color: rgb(10, 102, 194);
     padding: 10px 14px;
@@ -125,7 +125,7 @@
     border-width: 2px;
   }
 </style>
-<p><strong>Linkedin:</strong></p>
+<h1>Linkedin:</h1>
 <button class="linkedin-apply">Apply on company website</button>
 <button class="linkedin-save">Save</button>
 <br />
@@ -145,27 +145,100 @@
     cursor: pointer;
     transition: background-color 0.15s;
   }
-  .amazon-buy-now:hover{
+  .amazon-buy-now:hover {
     background-color: rgb(248, 125, 1);
   }
 </style>
-<p><strong>Amazon (Challenge):</strong></p>
+<h1>Amazon (Challenge):</h1>
 <a href="https://www.amazon.com.au">Back to Amazon</a>
 <h1>Nike Black Running Shoes</h1>
-<p class="amazon-price">$39 - in stock.</p>
-<p>Free delivery tomorrow.</p>
+<p class="amazon-price">$39 - in stock.</h1>
+<h1>Free delivery tomorrow.</h1>
 <button class="amazon-add-to-cart">Add to Cart</button>
 <button class="amazon-buy-now">Buy Now</button>
 <br />
 <br />
 
-
 <!-- 4.h Pagination -->
 <style>
-  .back-button{
+  .next-button,
+  .back-button {
     padding: 10px 10px;
     margin: 5px 5px;
   }
+  .page-number {
+    margin: 5px 5px;
+  }
 </style>
-<p><strong>Pagnination:</strong></p>
+<h1>Pagnination:</h1>
 <button class="back-button">Back</button>
+<a class="page-number" href="https://www.google.com.au">1</a>
+<a class="page-number" href="https://www.google.com.au">2</a>
+<a class="page-number" href="https://www.google.com.au">3</a>
+<a class="page-number" href="https://www.google.com.au">4</a>
+<a class="page-number" href="https://www.google.com.au">5</a>
+<button class="next-button">Next</button>
+
+<!-- 4.i Stretch -->
+<h1>Stretch:</h1>
+<style>
+  .stretch-box{
+    color: white;
+    background-color: green;
+    border: none;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: bold;
+    transition: padding 1s;
+  }
+  .stretch-box:hover{
+    padding: 20px 30px;
+  }
+</style>
+<button class="stretch-box">Stretch</button>
+<br>
+<br>
+
+<!-- 4.j 3D Click -->
+<h1>3D Click</h1>
+<style>
+  ._3d-click-box{
+    color: white;
+    background-color: green;
+    border: none;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: bold;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  }
+  ._3d-click-box:active{
+    margin-top: 3px;
+    margin-left: 3px;
+    box-shadow: none;
+  }
+</style>
+<button class="_3d-click-box">Shadow</button>
+<br>
+<br>
+
+<!-- 4.k Margin and padding together -->
+<h1>Margin and Padding Together</h1>
+<style>
+  .margin-padding-button{
+    color: white;
+    background-color: green;
+    border: none;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0px 5px;
+    transition: padding 0.5s, margin 0.5s;
+  }
+  .margin-padding-button:hover{
+    padding: 5px 15px;
+    margin: 0px;
+  }
+</style>
+<button class="margin-padding-button">One</button>
+<button class="margin-padding-button">Two</button>
+<button class="margin-padding-button">Three</button>
